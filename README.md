@@ -1,0 +1,3 @@
+# Motivation
+
+* Practice makes perfect.
