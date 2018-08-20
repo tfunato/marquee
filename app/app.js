@@ -17,7 +17,7 @@ app.get('/multi', validator, multi)
 app.get('/div', validator, div)
 app.get('/', (requ, res, next) => {
   res.status(200)
-  res.send('Hello Marquee')
+  res.send('Hello Marquee from CodePipeline')
 })
 app.use((req, res, next) => {
   res.status(404)
