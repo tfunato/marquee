@@ -8,7 +8,7 @@ const app = express()
 
 app.get('/status', (requ, res, next) => {
   res.status(200)
-  res.send('OK!!')
+  res.send('OK Production!!')
 })
 
 app.get('/sum', validator, sum)
